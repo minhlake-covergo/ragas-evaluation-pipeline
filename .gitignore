@@ -1,0 +1,10 @@
+.env
+/output/
+/evaluation-pipeline/
+/Lib/
+/Scripts/
+/Include/
+/venv/
+/env/
+__pycache__/
+*.pyc
