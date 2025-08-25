@@ -1,10 +1,19 @@
+# Tệp môi trường chứa API keys
 .env
+
+# Thư mục chứa kết quả output
 /output/
+
+# Thư mục và file của môi trường ảo
 /evaluation-pipeline/
 /Lib/
 /Scripts/
 /Include/
+/share/
 /venv/
 /env/
+pyvenv.cfg
+
+# Thư mục cache của Python
 __pycache__/
 *.pyc
