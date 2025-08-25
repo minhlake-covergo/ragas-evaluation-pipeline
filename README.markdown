@@ -19,7 +19,7 @@ Pipeline này hiện đang được cấu hình để đánh giá dựa trên 2 
 
 ### 1. Cài đặt môi trường
 
-Đầu tiên, sao chép (clone) repository về máy của bạn. Sau đó, cài đặt các thư viện cần thiết.
+Clone repository và cài đặt các thư viện cần thiết.
 
 ```bash
 # Cài đặt các thư viện từ file requirements.txt
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 ### 2. Cấu hình API Key
 
-Tạo một file có tên `.env` ở thư mục gốc của dự án và thêm Google API Key của bạn vào đó.
+Tạo một file có tên `.env` ở thư mục gốc của dự án và thêm Google API Key. 
 
 ```plaintext
 # File: .env
@@ -45,5 +45,4 @@ python pipeline/main.py
 
 ### 4. Xem kết quả
 
-- Kết quả chi tiết của từng mẫu sẽ được in ra trong cửa sổ dòng lệnh (terminal).
 - Một file CSV chứa toàn bộ kết quả sẽ được tự động lưu vào thư mục `output/`.
